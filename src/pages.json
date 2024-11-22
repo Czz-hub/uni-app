@@ -1,0 +1,89 @@
+{
+  "pages": [
+    {
+      "path": "pages/index",
+      "type": "home",
+      "layout": "default",
+      "name": "index",
+      "style": {
+        "navigationBarTitleText": "微信"
+      }
+    },
+    {
+      "path": "pages/about",
+      "type": "page",
+      "layout": "default",
+      "name": "about",
+      "style": {
+        "navigationBarTitleText": "发现"
+      }
+    },
+    {
+      "path": "pages/add",
+      "type": "page",
+      "layout": "default",
+      "name": "add",
+      "style": {
+        "navigationBarTitleText": "我"
+      }
+    },
+    {
+      "path": "pages/hi",
+      "type": "page",
+      "layout": "default",
+      "name": "hi",
+      "style": {
+        "navigationBarTitleText": "通讯录"
+      }
+    },
+    {
+      "path": "pages/login",
+      "type": "page",
+      "layout": "default",
+      "name": "login",
+      "style": {
+        "navigationBarTitleText": "登录"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTitleText": "Wot-Demo",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "default"
+  },
+  "tabBar": {
+    "custom": false,
+    "height": "70px",
+    "color": "#3b86cb",
+    "backgroundColor": "#A1FF33",
+    "selectedColor": "#d17277",
+    "fontSize": "10px",
+    "list": [
+      {
+        "pagePath": "pages/index",
+        "text": "微信",
+        "iconPath": "static/logo.png",
+        "selectedIconPath": "static/vite.png"
+      },
+      {
+        "pagePath": "pages/hi",
+        "text": "通讯录",
+        "iconPath": "static/logo.png",
+        "selectedIconPath": "static/vite.png"
+      },
+      {
+        "pagePath": "pages/about",
+        "text": "发现",
+        "iconPath": "static/logo.png",
+        "selectedIconPath": "static/vite.png"
+      },
+      {
+        "pagePath": "pages/add",
+        "text": "我",
+        "iconPath": "static/logo.png",
+        "selectedIconPath": "static/vite.png"
+      }
+    ]
+  },
+  "subPackages": []
+}
